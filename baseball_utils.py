@@ -37,5 +37,5 @@ def count_ball(answer, guess):
 
 def result_text(strike, ball):
     if strike == 0 and ball == 0:
-        return 'OUT'
-    return 'f{strike}S {ball}B'
+        return 'OUT!'
+    return f'{strike}S {ball}B'
